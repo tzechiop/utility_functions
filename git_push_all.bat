@@ -4,20 +4,20 @@ set arg1=%1
 
 echo ==== Old git status ====
 git status
-echo
+echo.
 
 echo ==== Adding files to git ====
 git add *
-echo 
+echo.
 
 echo ==== New git status ====
 git status
-echo 
+echo.
 
 echo ==== Committing files ====
 git commit -m %arg1%
-echo 
+echo.
 
 echo ==== Pushing changes ====
 git push -u origin master
-echo 
+echo.
